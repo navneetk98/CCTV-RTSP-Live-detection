@@ -1,10 +1,8 @@
-import numpy as np
-from imutils.imutils.video import FPS, VideoStream
 import time
 import argparse
+import numpy as np
+from imutils.imutils.video import FPS, VideoStream
 import cv2
-
-
 class MyVideoCapture:
     def __init__(self, video_source=0):
         # Open the video source
@@ -87,10 +85,20 @@ class MyVideoCapture:
 
         # if the `q` key was pressed, break from the loop
 
-        # self.fps.update()
-        cv2.imshow("Frame", frame)
+        self.fps.update()
         # Return a boolean success flag and the current frame converted to BGR
         return cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+        # if self.vid.isOpened():
+        #     ret, frame = self.vid.read()
+        #     frame = cv2.resize(frame, (1920, 1080))
+        #     if ret:
+        #         # Return a boolean success flag and the current frame converted to BGR
+        #         return (ret, cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+        #     else:
+        #         return (ret, None)
+        # else:
+        #     return (ret, None)
 
     # Release the video source when the object is destroyed
     def __del__(self):

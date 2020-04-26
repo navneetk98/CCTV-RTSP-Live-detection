@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e185b7-3e96-45ec-99a0-d9f7a0385da4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VideoCap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/details.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyVideoCapture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cctv_gui2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cctv_gui2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imutils" beforeDir="false" afterPath="$PROJECT_DIR$/imutils" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imutils/imutils/video/videostream.py" beforeDir="false" afterPath="$PROJECT_DIR$/imutils/imutils/video/videostream.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/imutils" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1b52xKxRZ8mOiIqCHjAwlbyLik1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -119,6 +126,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="details" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="real-time-object-detection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/details.py" />
+      <option name="PARAMETERS" value="--prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="real_time_object_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="real-time-object-detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,9 +168,11 @@
       <item itemvalue="Python.cctv_gui2" />
       <item itemvalue="Python.MyVideoCapture" />
       <item itemvalue="Python.real_time_object_detection" />
+      <item itemvalue="Python.details" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.details" />
         <item itemvalue="Python.real_time_object_detection" />
         <item itemvalue="Python.MyVideoCapture" />
       </list>
@@ -161,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587907878904</updated>
       <workItem from="1587907880363" duration="6422000" />
-      <workItem from="1587918730578" duration="4378000" />
+      <workItem from="1587918730578" duration="15519000" />
     </task>
     <servers />
   </component>
@@ -182,6 +210,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/real_time_object_detection$cctv_gui2.coverage" NAME="cctv_gui2 Coverage Results" MODIFIED="1587919909346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/real_time_object_detection$cctv_gui2.coverage" NAME="cctv_gui2 Coverage Results" MODIFIED="1587939551818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
