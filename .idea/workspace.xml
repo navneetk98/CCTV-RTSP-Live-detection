@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e185b7-3e96-45ec-99a0-d9f7a0385da4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VideoCap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/details.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyVideoCapture.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cctv_gui2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cctv_gui2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoCap.py" beforeDir="false" afterPath="$PROJECT_DIR$/VideoCap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cctv_gui2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cctv_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imutils" beforeDir="false" afterPath="$PROJECT_DIR$/imutils" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imutils/imutils/video/videostream.py" beforeDir="false" afterPath="$PROJECT_DIR$/imutils/imutils/video/videostream.py" afterDir="false" />
     </list>
@@ -70,6 +67,9 @@
       <module name="real-time-object-detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -107,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cctv_gui2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="cctv_gui" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="real-time-object-detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +117,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cctv_gui2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cctv_gui.py" />
       <option name="PARAMETERS" value="--prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,6 +130,9 @@
       <module name="real-time-object-detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -149,6 +152,9 @@
       <module name="real-time-object-detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -189,7 +195,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587907878904</updated>
       <workItem from="1587907880363" duration="6422000" />
-      <workItem from="1587918730578" duration="15519000" />
+      <workItem from="1587918730578" duration="16563000" />
+      <workItem from="1588761566811" duration="3752000" />
     </task>
     <servers />
   </component>

@@ -27,12 +27,12 @@ import time
 
 
 class App:
-    def __init__(self, window, window_title, video_source=0):
+    def __init__(self, window, window_title,ip,usern,passw, video_source=0):
         self.window = window
         self.window.title(window_title)
         self.video_source = video_source
 
-        self.vid = MyVideoCapture(self.video_source)
+        self.vid = MyVideoCapture(self.video_source,ip,usern,passw)
 
         # Create a canvas that can fit the above video source size
         self.canvas = tkinter.Canvas(window, width=1280, height=720)
@@ -174,14 +174,55 @@ def runn(self):
 # App(tkinter.Tk(), "CCTV object detection")
 class login:
     def __init__(self):
+        # self.r = tkinter.Tk()
+        # number1 = tkinter.StringVar()
+        # self.r.title('CCTV Login')
+        # w = tkinter.Label(self.r, text='Enter Details')
+        # w.pack()
+        # self.name_var = tkinter.StringVar()
+        # name_entry = tkinter.Entry(self.r,
+        #                       textvariable=self.name_var, font = ('calibre', 10, 'normal'))
+        # name_entry.pack()
+        # # self.fld=tkinter.Entry(self.r, text)
+        # # self.fld.pack()
         self.r = tkinter.Tk()
-        self.r.title('Counting Seconds')
-        button = tkinter.Button(self.r, text='Stop', width=25, command=self.dest)
-        button.pack()
+        self.r.geometry('400x200+10+20')
+
+        self.r.title('CCTV Login')
+
+        self.number1 = tkinter.StringVar()
+        self.number2 = tkinter.StringVar()
+        self.number3 = tkinter.StringVar()
+
+        labelNum1 = tkinter.Label(self.r, text="IP").grid(row=1, column=0)
+        labelNum2 = tkinter.Label(self.r, text="Username").grid(row=2, column=0)
+        labelNum3 = tkinter.Label(self.r, text="Password").grid(row=3, column=0)
+
+        # labelResult = tkinter.Label(self.r)
+        #
+        # labelResult.grid(row=7, column=2)
+
+        entryNum1 = tkinter.Entry(self.r, textvariable=self.number1).grid(row=1, column=2)
+        entryNum2 = tkinter.Entry(self.r, textvariable=self.number2).grid(row=2, column=2)
+        entryNum2 = tkinter.Entry(self.r, textvariable=self.number3).grid(row=3, column=2)
+
+        # call_result = partial(call_result, labelResult, number1, number2)
+        #
+        # buttonCal = tk.Button(root, text="Calculate", command=call_result).grid(row=3, column=0)
+
+        # self.r.mainloop()
+        button = tkinter.Button(self.r, text='Login', width=25, command=self.dest).grid(row=4, column=0)
+        # button.pack()
         self.r.mainloop()
     def dest(self):
         self.r.destroy()
-        App(tkinter.Tk(), "CCTV object detection")
+        ip=self.number1.get()
+        user=self.number2.get()
+        passw=self.number3.get()
+        print(ip)
+        print(user)
+        print(passw)
+        App(tkinter.Tk(), "CCTV object detection",ip,user,passw)
 
 
 login()

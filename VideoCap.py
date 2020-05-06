@@ -4,8 +4,12 @@ import numpy as np
 from imutils.imutils.video import FPS, VideoStream
 import cv2
 class MyVideoCapture:
-    def __init__(self, video_source=0):
+    def __init__(self,ip,usern,passw, video_source=0,):
         # Open the video source
+        print("inside")
+        print(ip)
+        print(usern)
+        print(passw)
         self.vid = cv2.VideoCapture("rtsp://2:infrared@192.168.1.240:554/cam/realmonitor?channel=1&subtype=0")
         if not self.vid.isOpened():
             raise ValueError("Unable to open video source", video_source)
