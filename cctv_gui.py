@@ -62,7 +62,7 @@ class login:
 
         entryNum1 = tkinter.Entry(self.r, textvariable=self.number1).grid(row=1, column=2)
         entryNum2 = tkinter.Entry(self.r, textvariable=self.number2).grid(row=2, column=2)
-        entryNum2 = tkinter.Entry(self.r, textvariable=self.number3).grid(row=3, column=2)
+        entryNum2 = tkinter.Entry(self.r,show="*", textvariable=self.number3).grid(row=3, column=2)
 
         button = tkinter.Button(self.r, text='Login', width=25, command=self.dest).grid(row=4, column=0)
         # button.pack()

@@ -15,6 +15,7 @@ class MyVideoCapture:
         print(usern)
         print(passw)
         self.vid = cv2.VideoCapture("rtsp://"+usern+":"+passw+"@"+ip+":554/cam/realmonitor?channel=1&subtype=0")
+        # self.vid = cv2.VideoCapture("videos/airport.mp4")
         if not self.vid.isOpened():
             raise ValueError("Unable to open video source", video_source)
         ap = argparse.ArgumentParser()

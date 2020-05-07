@@ -42,7 +42,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cctv_gui2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yolo-object-detection (1)/yolo-object-detection" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cctv_gui2">
+  <component name="RunManager" selected="Python.cctv_gui">
     <configuration name="MyVideoCapture" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="real-time-object-detection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,7 +171,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cctv_gui2" />
+      <item itemvalue="Python.cctv_gui" />
       <item itemvalue="Python.MyVideoCapture" />
       <item itemvalue="Python.real_time_object_detection" />
       <item itemvalue="Python.details" />
@@ -197,6 +197,8 @@
       <workItem from="1587907880363" duration="6422000" />
       <workItem from="1587918730578" duration="16563000" />
       <workItem from="1588761566811" duration="7052000" />
+      <workItem from="1588844597683" duration="4550000" />
+      <workItem from="1588858450709" duration="4605000" />
     </task>
     <servers />
   </component>
