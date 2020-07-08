@@ -72,9 +72,7 @@ class login:
         ip=self.number1.get()
         user=self.number2.get()
         passw=self.number3.get()
-        print(ip)
-        print(user)
-        print(passw)
+
         App(tkinter.Tk(), "CCTV object detection",ip,user,passw)
 
 

@@ -6,7 +6,7 @@ import cv2
 class MyVideoCapture:
     def __init__(self,hell,ip,usern,passw, video_source=0,):
         # Open the video source
-        ip2 =(str(ip))
+
         self.vid = cv2.VideoCapture("rtsp://"+usern+":"+passw+"@"+ip+":554/cam/realmonitor?channel=3&subtype=0")
         # self.vid = cv2.VideoCapture("videos/airport.mp4")
         if not self.vid.isOpened():

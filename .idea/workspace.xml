@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71e185b7-3e96-45ec-99a0-d9f7a0385da4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/real-time-object-detection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/real-time-object-detection.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoCap.py" beforeDir="false" afterPath="$PROJECT_DIR$/VideoCap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cctv_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/cctv_gui.py" afterDir="false" />
@@ -16,7 +14,6 @@
       <change beforePath="$PROJECT_DIR$/imutils/imutils/feature/harris.py" beforeDir="false" afterPath="$PROJECT_DIR$/imutils/imutils/feature/harris.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imutils/imutils/feature/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/imutils/imutils/feature/helpers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imutils/imutils/video/videostream.py" beforeDir="false" afterPath="$PROJECT_DIR$/imutils/imutils/video/videostream.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/real_time_object_detection.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +203,7 @@
       <workItem from="1588953900824" duration="1363000" />
       <workItem from="1594147142973" duration="360000" />
       <workItem from="1594148152298" duration="2309000" />
-      <workItem from="1594181495685" duration="2853000" />
+      <workItem from="1594181495685" duration="4912000" />
     </task>
     <servers />
   </component>
@@ -226,10 +223,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="177" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594148957706">
+    <state x="168" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594187971503">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="177" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1594148957706" />
+    <state x="168" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1594187971503" />
     <state x="492" y="163" width="424" height="491" key="FileChooserDialogImpl" timestamp="1594148463350">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
