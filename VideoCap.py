@@ -6,15 +6,8 @@ import cv2
 class MyVideoCapture:
     def __init__(self,hell,ip,usern,passw, video_source=0,):
         # Open the video source
-        print("inside")
         ip2 =(str(ip))
-        print(type(ip2))
-        print(type(usern))
-        print(type(passw))
-        print(ip2)
-        print(usern)
-        print(passw)
-        self.vid = cv2.VideoCapture("rtsp://"+usern+":"+passw+"@"+ip+":554/cam/realmonitor?channel=1&subtype=0")
+        self.vid = cv2.VideoCapture("rtsp://"+usern+":"+passw+"@"+ip+":554/cam/realmonitor?channel=3&subtype=0")
         # self.vid = cv2.VideoCapture("videos/airport.mp4")
         if not self.vid.isOpened():
             raise ValueError("Unable to open video source", video_source)
@@ -53,6 +46,7 @@ class MyVideoCapture:
 
     def get_frame(self):
         frame = self.vs.read()
+
         frame = cv2.resize(frame, (1280, 720))
 
 

@@ -11,7 +11,8 @@ class App:
         self.video_source = video_source
 
         self.vid = MyVideoCapture(self.video_source,ip,usern,passw)
-
+        self.btn_snapshot = tkinter.Button(window, text="Snapshot", width=50, command=self.snapshot)
+        self.btn_snapshot.pack(anchor=tkinter.CENTER, expand=True)
         # Create a canvas that can fit the above video source size
         self.canvas = tkinter.Canvas(window, width=1280, height=720)
         self.canvas.pack()
@@ -36,7 +37,6 @@ class App:
     def update(self):
         # Get a frame from the video source
         frame = self.vid.get_frame()
-
         self.photo = PIL.ImageTk.PhotoImage(image=PIL.Image.fromarray(frame))
         self.canvas.create_image(0, 0, image=self.photo, anchor=tkinter.NW)
 
