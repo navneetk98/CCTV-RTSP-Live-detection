@@ -7,6 +7,10 @@ objects like cars , cycles etc.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install tkinker and opencv.
 
+## Commandline Arguments
+
+--prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
